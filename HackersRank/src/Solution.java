@@ -360,7 +360,6 @@ public class Solution{
 	 *  3. INTEGER year
 	 */
 	public static String findDay(int month, int day, int year) {
-
 		Scanner sc =new Scanner(System.in);
 		while(sc.hasNext()) {
 			String monthString=sc.next();
@@ -383,10 +382,7 @@ public class Solution{
 	public static String findDay() {
 		Scanner sc =new Scanner(System.in);
 		Calendar calendar=null;
-
 		while(sc.hasNext()) {
-
-
 			String monthString=sc.next();
 			String dayString=sc.next();
 			String yearString=sc.next();
